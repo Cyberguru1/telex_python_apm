@@ -5,7 +5,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="telex_python_apm",
-    version="0.1.0",
+    version="0.1.1",
     description="Telex APM middleware for FastAPI.",
     author="Cyberguru1",
     author_email="hamzacypher34@gmail.com",

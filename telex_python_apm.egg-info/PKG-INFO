@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: telex_python_apm
-Version: 0.1.0
+Version: 0.1.1
 Summary: Telex APM middleware for FastAPI.
 Author: Cyberguru1
 Author-email: hamzacypher34@gmail.com
