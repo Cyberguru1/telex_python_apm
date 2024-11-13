@@ -17,10 +17,7 @@ class MonitorMiddleware(BaseHTTPMiddleware):
             if response.status_code >= 400:
                 request_data = {
                     "event_name": "Client Error" if response.status_code < 500 else "Server Error",
-                    "message": f"""Method: {method}   ||
-                                Path: {request.url.path}   ||
-                                Status_Code: {response.status_code}
-                                """,
+                    "message": f"""Method: {method}  ||  Path: {request.url.path}  ||  Status_Code: {response.status_code}""",
                     "username": "FastApi APM",
                     "status": "error"
                 }
