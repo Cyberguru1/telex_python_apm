@@ -64,7 +64,3 @@ Replace `main` with the name of your Python file if necessary. The app will star
 ## License
 
 This package is licensed under the MIT License.
-
----
-
-This README provides clear steps to install, configure, and use the Telex Python APM Middleware with FastAPI, as well as an example for reference. Let me know if you need further details!
